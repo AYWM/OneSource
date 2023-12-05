@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Records Analysis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Medical Records</h1>
+    
+    <!-- User Input Form -->
+    <div class="user-input-form">
+      <label for="labTest">Lab Test:</label>
+      <select id="labTest">
+        <!-- Lab Test options will be populated dynamically -->
+      </select>
+
+      <label for="readingValue">Reading Value:</label>
+      <span id="normalRange" class="normal-range">Normal Range</span>
+      <input type="text" id="readingValue" placeholder="Enter reading value">
+
+      <label for="readingDate">Reading Date:</label>
+      <input type="text" id="readingDate" placeholder="Enter reading date">
+
+      <button onclick="addReading()">Add Reading</button>
+    </div>
+
+    <!-- Table will be generated here -->
+    <div class="table-container" id="table-container">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
