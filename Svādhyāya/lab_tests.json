@@ -1,0 +1,44 @@
+[
+  {
+    "Lab Test": "Complete Blood Count",
+    "Normal Range": "Hemoglobin: 12-18 g/dL",
+    "Specimen Collection": "Blood - Venipuncture",
+    "Inspection Method": "Blood sample analyzed using a hematology analyzer."
+  },
+  {
+    "Lab Test": "Blood Glucose",
+    "Normal Range": "Fasting: 70-100 mg/dL",
+    "Specimen Collection": "Blood - Fingerstick/Venipuncture",
+    "Inspection Method": "Blood sample analyzed using a glucometer or lab assay."
+  },
+  {
+    "Lab Test": "Lipid Profile",
+    "Normal Range": "Total Cholesterol: <200 mg/dL",
+    "Specimen Collection": "Blood - Venipuncture",
+    "Inspection Method": "Blood sample analyzed using a chemistry analyzer."
+  },
+  {
+    "Lab Test": "Liver Function Tests",
+    "Normal Range": "ALT: 7-56 U/L",
+    "Specimen Collection": "Blood - Venipuncture",
+    "Inspection Method": "Blood sample analyzed for liver enzyme levels."
+  },
+  {
+    "Lab Test": "Renal Function Tests",
+    "Normal Range": "Creatinine: 0.6-1.3 mg/dL",
+    "Specimen Collection": "Blood/Urine - Venipuncture",
+    "Inspection Method": "Blood/Urine sample analyzed for kidney function."
+  },
+  {
+    "Lab Test": "Thyroid Function Tests",
+    "Normal Range": "TSH: 0.4-4.0 mIU/L",
+    "Specimen Collection": "Blood - Venipuncture",
+    "Inspection Method": "Blood sample analyzed for thyroid hormone levels."
+  },
+  {
+    "Lab Test": "Urinalysis",
+    "Normal Range": "pH: 4.6-8.0",
+    "Specimen Collection": "Urine - Collection in a sterile container",
+    "Inspection Method": "Urine sample analyzed for pH, cells, proteins, etc."
+  }
+]
