@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Add Lab Tests</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles here */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">Admin Panel - Add Lab Tests</h1>
+        <!-- Block for adding lab tests -->
+        <div class="mt-5 mb-4">
+            <h2>Add New Lab Test</h2>
+            <form id="addLabTestForm">
+                <div class="form-group">
+                    <label for="labTestName">Lab Test Name:</label>
+                    <input type="text" class="form-control" id="labTestName" placeholder="Enter lab test name">
+                </div>
+                <div class="form-group">
+                    <label for="normalRange">Normal Range:</label>
+                    <input type="text" class="form-control" id="normalRange" placeholder="Enter normal range">
+                </div>
+                <div class="form-group">
+                    <label for="specimenCollection">Specimen Collection:</label>
+                    <input type="text" class="form-control" id="specimenCollection" placeholder="Enter specimen collection details">
+                </div>
+                <div class="form-group">
+                    <label for="inspectionMethod">Inspection Method:</label>
+                    <textarea class="form-control" id="inspectionMethod" placeholder="Enter inspection method details"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select class="form-control" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ageGroup">Age Group:</label>
+                    <select class="form-control" id="ageGroup">
+                        <option value="newborn">Newborn</option>
+                        <option value="infant">Infant</option>
+                        <option value="toddler">Toddler</option>
+                        <option value="kids">Kids</option>
+                        <option value="adult">Adult</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="admin.js"></script>
+</body>
+
+</html>
