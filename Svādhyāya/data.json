@@ -1,43 +1,24 @@
 {
-  "tests": [
+  "labTests": [
     {
-      "name": "Complete Blood Count",
-      "normalValue": "",
-      "results": [
-        {
-          "date": "2023-12-01",
-          "values": []
-        },
-        {
-          "date": "2023-12-05",
-          "values": []
-        },
-        {
-          "date": "2023-12-10",
-          "values": []
-        }
-        // Add more date entries as needed
-      ]
+      "Lab Test": "Blood Test",
+      "Normal Range": "70-100 mg/dL",
+      "Specimen Collection": "Vein (Blood sample) - Syringe",
+      "Inspection Method": "Laboratory testing of blood sample for various components",
+      "Gender": "both",
+      "Age Group": ["newborn", "infant", "toddler", "kids", "adult"]
     },
+    // Add more lab tests as needed
+  ],
+  "people": [
     {
-      "name": "Blood Glucose",
-      "normalValue": "",
-      "results": [
-        {
-          "date": "2023-12-02",
-          "values": []
-        },
-        {
-          "date": "2023-12-07",
-          "values": []
-        },
-        {
-          "date": "2023-12-12",
-          "values": []
-        }
-        // Add more date entries as needed
-      ]
-    }
-    // Add more test entries following the same structure
-  ]
+      "patient_name": "John Doe",
+      "full_name": "John Doe",
+      "date_of_birth": "1990-01-01",
+      "gender": "male",
+      "allergy_detail": []
+    },
+    // Add more patient data as needed
+  ],
+  "testResults": []
 }
